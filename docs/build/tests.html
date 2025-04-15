@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Test-Driven Documentation</title>
+</head>
+<body>
+    <h1>Test-Driven Documentation</h1>
+
+    <p>Example of how to manually test the <code>/find</code> command:</p>
+
+    <ul>
+        <li>Type in chat: <code>/find</code> Titanic</li>
+        <li>Expected output includes:
+            <ul>
+                <li>Movie title: Titanic</li>
+                <li>Year: 1997</li>
+                <li>Poster image</li>
+                <li>YouTube trailer link</li>
+                <li>Genre: Drama, Romance</li>
+            </ul>
+        </li>
+        <li>If the movie is not found:
+            <ul>
+                <li>An appropriate message is returned in the selected language.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <p>These steps could also be turned into automated tests using <code>pytest</code> and mocking API responses.</p>
+</body>
+</html>
+

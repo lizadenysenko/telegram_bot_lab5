@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Component Interaction</title>
+</head>
+<body>
+    <h1>Component Interaction</h1>
+
+    <p>Key components:</p>
+    <ol>
+        <li><strong>User</strong> — sends a command message to the bot.</li>
+        <li><strong>Telegram Bot API</strong> — forwards the message to the backend logic in <code>bot.py</code>.</li>
+        <li><strong>OMDb API</strong> — performs search queries using parameters (e.g. movie title).</li>
+        <li><strong>Bot</strong> — receives JSON responses, parses them, and builds messages for the user.</li>
+    </ol>
+
+    <p>All logic is based on command handlers (<code>@bot.message_handler</code>).</p>
+</body>
+</html>
