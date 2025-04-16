@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Архітектура проєкту</title>
+</head>
+<body>
+    <div style="text-align: right; padding: 10px;">
+        <a href="architecture.html">EN</a> |
+        <a href="architecture_uk.html">UA</a>
+    </div>
+
+    <h1>Архітектура проєкту</h1>
+    <p>Бот побудований за модульною структурою:</p>
+    <ul>
+        <li><code>bot.py</code> — головний файл з логікою Telegram-бота.</li>
+        <li>Використовується OMDb API для отримання інформації про фільми.</li>
+        <li>Telegram-бот обробляє команди користувача, аналізує введення та надсилає відповіді.</li>
+        <li>Функції ізольовані та структуровані за відповідальністю: розбір введення, API-запити, форматування повідомлень.</li>
+    </ul>
+
+    <p>Використані технології:</p>
+    <ul>
+        <li>Python 3.12</li>
+        <li>Telegram Bot API (<code>pyTelegramBotAPI</code>)</li>
+        <li>OMDb API</li>
+        <li>Sphinx (для документації)</li>
+    </ul>
+</body>
+</html>

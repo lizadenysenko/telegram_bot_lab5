@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Взаємодія компонентів</title>
+</head>
+<body>
+    <div style="text-align: right; padding: 10px;">
+        <a href="components.html">EN</a> |
+        <a href="components_uk.html">UA</a>
+    </div>
+
+    <h1>Взаємодія компонентів</h1>
+
+    <p>Основні компоненти:</p>
+    <ol>
+        <li><strong>Користувач</strong> — надсилає команду боту.</li>
+        <li><strong>Telegram Bot API</strong> — пересилає повідомлення до логіки на бекенді у <code>bot.py</code>.</li>
+        <li><strong>OMDb API</strong> — виконує пошукові запити за параметрами (наприклад, назва фільму).</li>
+        <li><strong>Бот</strong> — отримує відповіді у форматі JSON, обробляє їх і формує повідомлення для користувача.</li>
+    </ol>
+
+    <p>Уся логіка ґрунтується на обробниках команд (<code>@bot.message_handler</code>).</p>
+</body>
+</html>
